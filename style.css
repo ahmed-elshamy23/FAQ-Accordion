@@ -107,6 +107,10 @@ body {
     font-weight: 600;
 }
 
+.content ul li:hover div h2 {
+    color: hsl(280.92deg 82.98% 53.92%);
+}
+
 @media (max-width: 767px) {
     .content ul li div h2 {
         font-size: 18px;
@@ -114,6 +118,7 @@ body {
 }
 
 .content ul li p {
+    color: var(--grayishPurple);
     opacity: 0;
     height: 0;
     line-height: 1.6;
